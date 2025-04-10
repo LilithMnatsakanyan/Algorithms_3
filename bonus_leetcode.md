@@ -3,6 +3,7 @@
 ![img_1.png](images/img_1.png)
 
 # Code
+```
 class Solution(object):
     def findRedundantConnection(self, edges):
         """
@@ -27,3 +28,4 @@ class Solution(object):
         for u, v in edges:
             if not union(u, v):
                 return [u, v]
+```
